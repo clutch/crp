@@ -1,0 +1,25 @@
+{
+  "name": "crp",
+  "version": "1.0.0",
+  "description": "Wrapper for curl that returns a Bluebird promise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrice/crp.git"
+  },
+  "author": "Samuel Brice <brices@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbrice/crp/issues"
+  },
+  "homepage": "https://github.com/sbrice/crp#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "lodash": "^4.14.1",
+    "qs": "^6.2.1",
+    "uri-js": "^2.1.1"
+  }
+}
